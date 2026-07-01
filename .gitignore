@@ -1,0 +1,37 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.eggs/
+dist/
+build/
+*.egg
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Data (download separately — see README)
+data/raw/*.csv
+
+# Generated model artifacts (reproducible via main.py)
+outputs/models/*.pkl
+outputs/models/manifest.json
+
+# Keep figures and CSV results for README documentation
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Streamlit
+.streamlit/secrets.toml
